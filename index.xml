@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<index>
+  <addon>
+    <type>script</type>
+    <name>IntelliChorus Recorder</name>
+    <author>Uniqueboy</author>
+    <version>1.0</version>
+    <description>An accessible, automatic chorus recorder for REAPER with punch-in logic, track panning, count-in, mute, folder grouping, and screen reader support.</description>
+    <category>Recording</category>
+    <file target="main" src="IntelliChorus Recorder/IntelliChorus Recorder.lua"/>
+    <file target="other" src="IntelliChorus Recorder/help.pdf"/>
+  </addon>
+</index>
