@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<index>
-  <addon>
+<index version="1"> 
+ <addon>
     <type>script</type>
     <name>IntelliChorus Recorder</name>
     <author>Uniqueboy</author>
