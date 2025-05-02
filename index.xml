@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <index version="1"> 
+<name>Unique Creators</name>
  <addon>
     <type>script</type>
     <name>IntelliChorus Recorder</name>
