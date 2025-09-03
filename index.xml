@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<reapack name="Unique Creators ReaScripts" version="1.0">  
+<reapack name="Unique Creators Scripts" version="1.0">
+  
   <category name="Accessibility">
-    <script name="Intelli Chorus Recorder" author="Unique Creators">
+    
+    <script name="IntelliChorus Recorder (Accessible &amp; Modular Edition)" author="Unique Creators">
+      
       <description>
         <![CDATA[
           Automates recording layered vocals with an accessible, step-by-step wizard,
           auto-panning, folder creation, and session presets.
         ]]>
       </description>
-      <version name="2.0" author="Unique Creators" time="2025-09-03T19:30:00Z">  
-        <source main="true" dest="Unique Creators/Intelli Chorus Recorder/Intelli Chorus Recorder.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/main.lua</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/config.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/config.lua</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/ui_wizard.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/ui_wizard.lua</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/core_logic.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/core_logic.lua</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/lib/utils.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/lib/utils.lua</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/session.ini">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/session.ini</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/README.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/README.md</source>
-        <source dest="Unique Creators/Intelli Chorus Recorder/CONTRIBUTING.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/CONTRIBUTING.md</source>
+      
+      <version name="2.0" author="Unique Creators" time="2025-09-03T19:30:00Z">
+        
+        <source main="true" dest="IntelliChorus Recorder/main.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/main.lua</source>
+        <source dest="IntelliChorus Recorder/config.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/config.lua</source>
+        <source dest="IntelliChorus Recorder/ui_wizard.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/ui_wizard.lua</source>
+        <source dest="IntelliChorus Recorder/core_logic.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/core_logic.lua</source>
+        <source dest="IntelliChorus Recorder/lib/utils.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/lib/utils.lua</source>
+        <source dest="IntelliChorus Recorder/session.ini">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/session.ini</source>
+        <source dest="IntelliChorus Recorder/README.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/README.md</source>
+        <source dest="IntelliChorus Recorder/CONTRIBUTING.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/CONTRIBUTING.md</source>
+        
       </version>
     </script>
   </category>
 </reapack>
+
