@@ -1,14 +1,23 @@
-<?xml version="1.0" ?>
-<index version="1"> 
-<name>Unique Creators</name>
- <addon>
-    <type>script</type>
-    <name>IntelliChorus Recorder</name>
-    <author>Uniqueboy</author>
-    <version>1.0</version>
-    <description>An accessible, automatic chorus recorder for REAPER with punch-in logic, track panning, count-in, mute, folder grouping, and screen reader support.</description>
-    <category>Recording</category>
-    <file target="main" src="IntelliChorus Recorder/IntelliChorus Recorder.lua"/>
-    <file target="other" src="IntelliChorus Recorder/help.pdf"/>
-  </addon>
-</index>
+<?xml version="1.0" encoding="utf-8"?>
+<reapack name="Unique Creators ReaScripts" version="1.0">  
+  <category name="Accessibility">
+    <script name="Intelli Chorus Recorder" author="Unique Creators">
+      <description>
+        <![CDATA[
+          Automates recording layered vocals with an accessible, step-by-step wizard,
+          auto-panning, folder creation, and session presets.
+        ]]>
+      </description>
+      <version name="2.0" author="Unique Creators" time="2025-09-03T19:30:00Z">  
+        <source main="true" dest="Unique Creators/Intelli Chorus Recorder/Intelli Chorus Recorder.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/main.lua</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/config.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/config.lua</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/ui_wizard.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/ui_wizard.lua</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/core_logic.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/core_logic.lua</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/lib/utils.lua">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/lib/utils.lua</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/session.ini">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/session.ini</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/README.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/README.md</source>
+        <source dest="Unique Creators/Intelli Chorus Recorder/CONTRIBUTING.md">https://raw.githubusercontent.com/UniqueCreators/intelli-chorus-recorder/main/CONTRIBUTING.md</source>
+      </version>
+    </script>
+  </category>
+</reapack>
